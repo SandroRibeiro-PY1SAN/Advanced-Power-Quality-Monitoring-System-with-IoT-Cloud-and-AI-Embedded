@@ -7,7 +7,7 @@ Sandro Carneiro Ribeiro
 
 Leonardo de Carvalho Vidal
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 Real-time analyzer for managing the electrical variables of an installation connected to a power distributor. This equipment consists of several modular hardware modules and dedicated software.
 This project has an electronic interface to support auxiliary voltage (J1) and current (J2) measurement boards, and the microcontroller (U2). The electrical design was developed using KiCad software version 8.0.
 
