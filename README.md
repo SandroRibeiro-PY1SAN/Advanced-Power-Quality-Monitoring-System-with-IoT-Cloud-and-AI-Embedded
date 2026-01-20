@@ -2,6 +2,7 @@
 Manuscript ID: IEEE LATAM Submission ID: XXXXX
 
 Authors:
+
 Sandro Carneiro Ribeiro
 Leonardo de Carvalho Vidal
 
