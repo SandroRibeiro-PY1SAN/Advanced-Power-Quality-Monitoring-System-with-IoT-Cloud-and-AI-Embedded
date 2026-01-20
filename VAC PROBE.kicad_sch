@@ -1,0 +1,5948 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a587edbc-1d2e-4fb0-a917-d5fd86ac8293")
+	(paper "A4")
+	(lib_symbols
+		(symbol "VAC PROBE-altium-import:+5V_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "O símbolo de energia cria um rótulo global com o nome '+5V'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:GND_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "O símbolo de energia cria um rótulo global com o nome 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_0_100K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_100K_1_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_0_10K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_10K_1_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_0_820K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_820K_1_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_0_LM358N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_LM358N_1_0"
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0) (xy 5.08 0) (xy -5.08 5.08) (xy -5.08 5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "-IN_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "+IN_1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "-V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "+V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_0_ZMPT101B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_ZMPT101B_1_0"
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 12.7) (xy 0 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 12.7) (xy 12.7 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 15.24)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 5.08) (xy 5.08 5.08) (xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 7.62) (xy 5.08 7.62) (xy 5.08 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 10.16) (xy 5.08 10.16) (xy 5.08 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 12.7) (xy 5.08 12.7) (xy 5.08 10.16) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 10.16 2.54) (xy 7.62 2.54) (xy 7.62 5.08) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 10.16 5.08) (xy 7.62 5.08) (xy 7.62 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 10.16 7.62) (xy 7.62 7.62) (xy 7.62 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 10.16 10.16) (xy 7.62 10.16) (xy 7.62 12.7) (xy 10.16 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_1_100"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_100_1_0"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_1_100p"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_100p_1_0"
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.508) (xy -2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_1_1u"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_1u_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_2_10K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_10K_1_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAC PROBE-altium-import:root_3_100K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_100K_1_0"
+				(rectangle
+					(start -2.286 2.54)
+					(end -0.254 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -3.302)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 1.016 0.508) (xy 1.016 0.508) (xy 1.016 -0.508) (xy 1.016 -0.508) (xy -0.254 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "50%"
+					(at 0.001 -1.524 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify right top)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 261.62 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f1c259-f3c8-44f7-99a7-fb30edda8a59")
+	)
+	(junction
+		(at 248.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1446dded-06c1-42ea-b291-03b43ef4e34e")
+	)
+	(junction
+		(at 207.01 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16cc74ff-7eba-4ddc-99d3-292ebaea83ee")
+	)
+	(junction
+		(at 128.27 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5994a7-4ca8-4166-9c05-6daa83c4d890")
+	)
+	(junction
+		(at 194.31 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a660f9-a6f1-48c3-adc2-ea7a0f20b887")
+	)
+	(junction
+		(at 273.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778c2eea-3ddf-4a25-a470-bbbe4ccf0c47")
+	)
+	(junction
+		(at 128.27 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80127686-3e14-481f-802f-7abfaad3261c")
+	)
+	(junction
+		(at 177.8 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7c9442-ace7-44e4-953d-b55670b2f95f")
+	)
+	(junction
+		(at 248.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9016ca9d-185f-4be9-89c2-27d774a5d1e7")
+	)
+	(junction
+		(at 219.71 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "926b4132-3277-4934-a40d-6482fb2b9253")
+	)
+	(junction
+		(at 165.1 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "957d0243-ba1e-403d-b208-b3b712d49533")
+	)
+	(junction
+		(at 165.1 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a1282f-bf25-4197-804e-d308c88a9834")
+	)
+	(junction
+		(at 273.05 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14698a8-d784-460a-afcd-46276973a07b")
+	)
+	(junction
+		(at 219.71 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b97f8891-e61d-47e8-8c2a-5e4799da0439")
+	)
+	(junction
+		(at 194.31 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe033e0-c2f3-4721-be25-44aca6398cea")
+	)
+	(junction
+		(at 247.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc00496a-ef15-42f8-afd6-9020f69fd588")
+	)
+	(wire
+		(pts
+			(xy 261.62 157.48) (xy 261.62 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061b625b-d63a-45f4-bc6c-1e19dcaccd98")
+	)
+	(wire
+		(pts
+			(xy 177.8 152.4) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a13ed9e-bef7-4249-be94-bc2d2d295f5f")
+	)
+	(wire
+		(pts
+			(xy 236.22 157.48) (xy 233.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb5c880-d6b9-48ed-a672-c24ebc7dfd2d")
+	)
+	(wire
+		(pts
+			(xy 273.05 125.73) (xy 273.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c701979-203f-4421-8bcd-b22b731b6d7d")
+	)
+	(wire
+		(pts
+			(xy 207.01 125.73) (xy 194.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105dac07-9d84-4398-a92a-d6124c74b740")
+	)
+	(wire
+		(pts
+			(xy 261.62 154.94) (xy 261.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a262ad-bf39-4856-ae47-5fcc4fd629a7")
+	)
+	(wire
+		(pts
+			(xy 236.22 151.13) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169fcbd6-f363-472e-839d-abfd3c38f0a4")
+	)
+	(wire
+		(pts
+			(xy 261.62 133.35) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4aba6f-1def-4a81-a59b-f644acab4a59")
+	)
+	(wire
+		(pts
+			(xy 273.05 119.38) (xy 273.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f98b170-6cbe-4a76-8807-ad7babbf67b8")
+	)
+	(wire
+		(pts
+			(xy 181.61 152.4) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297b19bc-ba3e-47d4-8350-b138cccb1f9c")
+	)
+	(wire
+		(pts
+			(xy 194.31 119.38) (xy 194.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea2b2d2-5ec7-440e-a3ee-07d227036ae6")
+	)
+	(wire
+		(pts
+			(xy 260.35 157.48) (xy 261.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eed0ed1-e127-49ad-b4b8-b95238743884")
+	)
+	(wire
+		(pts
+			(xy 191.77 142.24) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332d1c87-0ec5-4aa0-9630-5f3df80ddf4c")
+	)
+	(wire
+		(pts
+			(xy 251.46 119.38) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a80d19d-262d-48d6-a8ce-f325692f7002")
+	)
+	(wire
+		(pts
+			(xy 207.01 133.35) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db182f9-b248-40e5-a0be-49ae5550eb84")
+	)
+	(wire
+		(pts
+			(xy 217.17 144.78) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3f3364-01a4-46fb-89b5-6e8e75cecad4")
+	)
+	(wire
+		(pts
+			(xy 219.71 119.38) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e70dc5-02f6-45ef-ac3b-870c43f8d764")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 219.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436955a8-0a05-485b-a05e-e5a8b0dfb63a")
+	)
+	(wire
+		(pts
+			(xy 177.8 147.32) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466b7139-b172-48f3-bd7d-30e8bc06003b")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481c92e7-0b72-4c20-93c1-7bdc1132b5ca")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdff831-5f95-40a7-bb9d-f1f1e8bfec57")
+	)
+	(wire
+		(pts
+			(xy 251.46 147.32) (xy 247.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbe2b2b-ff89-442f-a015-e68ba00796b1")
+	)
+	(wire
+		(pts
+			(xy 261.62 119.38) (xy 273.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b8fcbd-d877-424e-931f-5ccb32905f2d")
+	)
+	(wire
+		(pts
+			(xy 194.31 125.73) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5698c6d7-568b-4ce2-a2c1-4553c0f0d395")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e76efba-b2a5-446c-9ecd-7f49b23fb3b3")
+	)
+	(wire
+		(pts
+			(xy 128.27 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dcb1a4-0e27-4e8b-bf32-9c13c5cee9f3")
+	)
+	(wire
+		(pts
+			(xy 234.95 151.13) (xy 236.22 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6806e4d6-0cc6-4e7b-a95e-77b382a78c41")
+	)
+	(wire
+		(pts
+			(xy 273.05 144.78) (xy 271.78 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695e1eb7-bb89-473d-8622-6e12f9a58b72")
+	)
+	(wire
+		(pts
+			(xy 248.92 125.73) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a220a0f-ad2f-4686-8337-4806cbe7f6da")
+	)
+	(wire
+		(pts
+			(xy 196.85 147.32) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fae9999-b481-4c58-b91e-1c951c455968")
+	)
+	(wire
+		(pts
+			(xy 191.77 157.48) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70659ef8-19e8-4d24-b357-b0aec2be7708")
+	)
+	(wire
+		(pts
+			(xy 177.8 157.48) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7204f267-3493-471b-9e83-d64a98073a8e")
+	)
+	(wire
+		(pts
+			(xy 248.92 142.24) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a7ed53-feef-412b-8424-0effa9d13526")
+	)
+	(wire
+		(pts
+			(xy 250.19 157.48) (xy 247.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737b1ab5-9619-41ff-ae73-fe5d4cb5d549")
+	)
+	(wire
+		(pts
+			(xy 207.01 154.94) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3ec1fa-8a83-457f-af2d-30c6fd8310d2")
+	)
+	(wire
+		(pts
+			(xy 124.46 152.4) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eeea41a-831a-4cc9-942c-7c2154b41480")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820edcfe-3d5f-4092-966f-7e7c7d3f280a")
+	)
+	(wire
+		(pts
+			(xy 247.65 157.48) (xy 246.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926aef0c-8ac6-422e-8ca2-28752b8fc820")
+	)
+	(wire
+		(pts
+			(xy 194.31 152.4) (xy 191.77 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eb4243-b9a1-402f-9788-77a854829aea")
+	)
+	(wire
+		(pts
+			(xy 223.52 151.13) (xy 224.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975f3bf8-ed50-42e2-a56f-10d18bb468d0")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981482e8-8425-462c-982d-bdd006583292")
+	)
+	(wire
+		(pts
+			(xy 167.64 142.24) (xy 165.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb1cd73-6759-48fe-b336-04cd643d3a20")
+	)
+	(wire
+		(pts
+			(xy 260.35 125.73) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56a0918-09d0-47c8-8c53-cb38dd82bee9")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ed107b-0571-46c8-b423-f8e4cd1a10c2")
+	)
+	(wire
+		(pts
+			(xy 248.92 119.38) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badb7277-373f-4eef-be19-c10602d78f27")
+	)
+	(wire
+		(pts
+			(xy 275.59 144.78) (xy 273.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf6dd1-e997-44cc-bd26-2f0ac83d707b")
+	)
+	(wire
+		(pts
+			(xy 124.46 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb51141-4c84-43aa-bf2e-309c320842d1")
+	)
+	(wire
+		(pts
+			(xy 181.61 157.48) (xy 177.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becdd2f0-98bf-4f7e-83ee-de35b634d419")
+	)
+	(wire
+		(pts
+			(xy 177.8 142.24) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a6a739-af2c-4fd9-bc5c-ea7fdd8f21f2")
+	)
+	(wire
+		(pts
+			(xy 194.31 142.24) (xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8316ca8-e3a1-4edc-8ece-be5513a7c4c6")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 162.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc08c15e-7d40-4a44-a2cb-beb75b13b73f")
+	)
+	(wire
+		(pts
+			(xy 217.17 125.73) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc94acf7-a50f-441b-83fe-f942eed67aca")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2deeee-f93d-4700-ab2e-aee647bae038")
+	)
+	(wire
+		(pts
+			(xy 219.71 156.21) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01e4ec0-0a6b-45d4-bbab-e207f3c465db")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d023c6d5-3f8a-4120-af25-88a641dc8846")
+	)
+	(wire
+		(pts
+			(xy 270.51 125.73) (xy 273.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0268420-66ee-4267-af9e-8b227943e860")
+	)
+	(wire
+		(pts
+			(xy 247.65 147.32) (xy 247.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db491cfc-7ebc-4b46-941d-5e70cb73e785")
+	)
+	(wire
+		(pts
+			(xy 219.71 157.48) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e0ebcd-75db-4d03-80de-60adf19bfa18")
+	)
+	(wire
+		(pts
+			(xy 165.1 142.24) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea688c3f-ccc1-4971-a058-3fbe3d5eea76")
+	)
+	(wire
+		(pts
+			(xy 219.71 125.73) (xy 219.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88b8daa-d5d0-4ceb-9c97-ca47d2138658")
+	)
+	(wire
+		(pts
+			(xy 207.01 160.02) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa8144d-67d0-4245-b615-bea3025b6c74")
+	)
+	(text "SANDRO CARNEIRO RIBEIRO\nLEONARDO DE CARVALHO VIDAL\nPHD INDUSTRIAL ASSEMBLIES\nFLUMINENSE FEDERAL UNIVERSITY"
+		(exclude_from_sim no)
+		(at 178.562 174.244 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1da2b678-2a90-447e-8ce2-fc990a6e6f26")
+	)
+	(text "POWER MANAGER"
+		(exclude_from_sim no)
+		(at 199.898 189.992 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "1fa03482-961b-4932-a7ee-82fc26087fe2")
+	)
+	(text "0.1"
+		(exclude_from_sim no)
+		(at 271.526 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a7a4b9cf-de02-4803-8887-96af7516740a")
+	)
+	(text "2025-01-11 "
+		(exclude_from_sim no)
+		(at 214.376 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "de1b6b22-103b-4a8a-b603-359c18fab4ec")
+	)
+	(hierarchical_label "OUTPUT"
+		(shape input)
+		(at 275.59 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "309a60db-8964-40a4-91b4-e5ffc82ddda2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 124.46 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bb759d2-c54b-44d1-949d-de2fade54f6f")
+	)
+	(hierarchical_label "INPUT"
+		(shape input)
+		(at 124.46 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a967d5bf-8e46-4406-91f1-9d92beca8393")
+	)
+	(hierarchical_label "INPUT"
+		(shape input)
+		(at 124.46 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1f995f1-4d31-4458-93af-4751e20ab738")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 124.46 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4a837da-1262-4a13-ac19-d7779465c875")
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:+5V_BAR")
+		(at 261.62 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "018ce8e3-0569-46e6-9ff1-e3cd8839ef50")
+		(property "Reference" "#PWR07"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "07fc02be-fbde-4646-b474-15804060c61c")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_LM358N")
+		(at 261.62 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05e3c8a8-13c9-4193-9ed1-75a275e58599")
+		(property "Reference" "U1"
+			(at 262.888 138.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM358N"
+			(at 263.493 141.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "LCSC"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" "C83405"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" "LM358N"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUBPART_NO" "2"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "U"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "LM358N"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f85db0a-457c-48f0-a8c6-a1a0f3adcae3")
+		)
+		(pin "8"
+			(uuid "81d324dc-942e-4037-a77b-56d0f4bd22ae")
+		)
+		(pin "1"
+			(uuid "479803b8-f58d-4d9a-984d-955d7cb26adc")
+		)
+		(pin "4"
+			(uuid "99956c4d-3213-427c-8812-ffbefd0947f1")
+		)
+		(pin "3"
+			(uuid "1ade765c-4b85-4dd8-afaa-62b5a5594b70")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_LM358N")
+		(at 207.01 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c6c8ee4-65bc-4482-b06d-e3b3c3e555c4")
+		(property "Reference" "U1"
+			(at 208.278 138.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM358N"
+			(at 208.883 141.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "LCSC"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" "C83405"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" "LM358N"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUBPART_NO" "2"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "U"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "LM358N"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b34e9d8-0819-4124-9ad5-539d6a499ba3")
+		)
+		(pin "8"
+			(uuid "6fe1c666-a01b-4494-bb63-467b41c1e16e")
+		)
+		(pin "1"
+			(uuid "7184b00d-e55b-466a-9238-aae33eee961f")
+		)
+		(pin "4"
+			(uuid "345ea7e8-5898-418a-92a3-0081c90cf352")
+		)
+		(pin "3"
+			(uuid "3aced5e9-f10c-436d-8714-6cea7c058688")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:GND_BAR")
+		(at 132.08 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3557615d-0e7f-47f5-8d45-67fa4d465e93")
+		(property "Reference" "#PWR02"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "af014b9e-f28d-4ce5-ba92-ad35364cba0d")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_100p")
+		(at 128.27 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e63dedc-36bf-41e6-8c15-77b56d20191c")
+		(property "Reference" "C1"
+			(at 129.322 124.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100p"
+			(at 131.945 127.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NAMEALIAS" "Value(F)"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "LCEDA_Lib"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "C"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "C_RAD-0.1_US"
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 128.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0736054-ca1e-4b34-a1bf-68460ee4f80b")
+		)
+		(pin "1"
+			(uuid "35540daf-c28a-43f8-8147-a66a63399b33")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:+5V_BAR")
+		(at 233.68 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f063b50-20ee-4ba6-a9ab-20ed65e81bb9")
+		(property "Reference" "#PWR06"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 229.87 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "728d5702-2e29-4b23-919f-eb6289a0e323")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_820K")
+		(at 132.08 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53a7f307-3c36-4764-80ff-e96e455a92b0")
+		(property "Reference" "R1"
+			(at 129.869 143.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "820K"
+			(at 129.278 141.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b42dc0-68bd-4e06-9ccc-53f1eaa159c8")
+		)
+		(pin "2"
+			(uuid "72a9b313-dd0a-4c2c-900a-5f5724caf379")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:+5V_BAR")
+		(at 194.31 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "568e5492-e8ce-4895-9b57-452814945b86")
+		(property "Reference" "#PWR03"
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8ce444b1-6e85-44b5-b36f-9f3fd4f2a4df")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_100p")
+		(at 212.09 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a22bc9d-df1c-4530-b152-54d4d2eb0899")
+		(property "Reference" "C3"
+			(at 211.796 121.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100p"
+			(at 209.254 126.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "YUJING"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "1u"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "C"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Capacitor1_US"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "159297e2-81ee-47bf-961f-d97e1b53f87c")
+		)
+		(pin "1"
+			(uuid "afb8069f-547b-44c5-ba72-22df005610a6")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_100K")
+		(at 204.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a389d0b-96f4-4a10-a1b9-8ce7ce012f0b")
+		(property "Reference" "R6"
+			(at 202.918 120.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 201.605 123.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05df0981-2b3b-4b96-9ffc-c45d5dbc10ba")
+		)
+		(pin "2"
+			(uuid "fc248b2a-0f0f-4344-9728-b6f443404f72")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_10K")
+		(at 241.3 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fe46349-300d-4414-b026-d41058608cfc")
+		(property "Reference" "R8"
+			(at 239.746 143.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 239.72 140.949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 241.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ce73cac-5472-4e47-9719-a17143800e01")
+		)
+		(pin "1"
+			(uuid "836ca3e3-5bcd-4a2d-90b4-7f1d2f338e18")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_10K")
+		(at 186.69 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "839207f0-d59e-4256-9cbb-31fcb87bba9d")
+		(property "Reference" "R4"
+			(at 185.136 153.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 184.483 151.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 186.69 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3bd27a6-e61d-4989-a67f-7e0208e0060e")
+		)
+		(pin "1"
+			(uuid "6689618d-4d32-411a-866f-c0d9658e5bf1")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_10K")
+		(at 255.27 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86bdb45c-53fb-4403-9e79-f20b1f62f990")
+		(property "Reference" "R10"
+			(at 253.057 159.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 253.69 156.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be9a1a0-f55f-4f76-90a8-610c91e5cf33")
+		)
+		(pin "2"
+			(uuid "fcfdbfdd-221d-456a-aa68-73e86ca60e5c")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_100p")
+		(at 265.43 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f40eae0-2ad2-4318-9d72-1ca931c606ea")
+		(property "Reference" "C5"
+			(at 265.136 121.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100p"
+			(at 262.594 126.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "YUJING"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "1u"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "C"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Capacitor1_US"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed906fec-88e9-40ae-971e-ddd121224843")
+		)
+		(pin "1"
+			(uuid "5e1424e0-5ec2-4f70-a5a1-a99ce08585d2")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_10K")
+		(at 241.3 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93f6e8ca-a294-4143-b2d0-b3ff37b64969")
+		(property "Reference" "R9"
+			(at 239.177 159.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 239.72 156.189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32762a62-e513-41be-8c13-5211db8491dc")
+		)
+		(pin "1"
+			(uuid "e58a23d4-950d-4fb4-815e-6bd6b53824d5")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_1u")
+		(at 172.72 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9934de9a-a27f-4ffc-84cc-e57a76e63390")
+		(property "Reference" "C2"
+			(at 171.232 137.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 171.049 140.187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "YUJING"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "1u"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "C"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Capacitor1_US"
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbb515f1-bdb8-4463-9317-8dd7ddad30b9")
+		)
+		(pin "1"
+			(uuid "e7b0c827-0ebc-46ef-b735-26fdee361864")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:GND_BAR")
+		(at 261.62 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5289c75-312a-41df-b1c3-6347f88766d5")
+		(property "Reference" "#PWR08"
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "82b3bc61-5eb8-4565-9297-f6c7d1f0d9ae")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_2_10K")
+		(at 186.69 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa0ea5df-8ab2-4af6-a012-bd5b5fac5e9c")
+		(property "Reference" "R5"
+			(at 185.138 159.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 184.483 161.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 186.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87cd63b5-ff44-4200-8e0f-74cd0f5f8c51")
+		)
+		(pin "2"
+			(uuid "feec019e-3ef8-4762-a2eb-aebda4024115")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_1u")
+		(at 229.87 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acece996-939d-412c-ba51-6fa1893deed0")
+		(property "Reference" "C4"
+			(at 228.382 146.757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 228.199 149.077 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "YUJING"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "1u"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "C"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Capacitor1_US"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b864e1cd-65b3-46a4-8265-ecbe19c1cb08")
+		)
+		(pin "1"
+			(uuid "0505ceb1-55ed-4b05-9707-fbb1833d5d22")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_ZMPT101B")
+		(at 144.78 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1fb3336-ff2b-45ef-a609-ceab9827b520")
+		(property "Reference" "T1"
+			(at 150.114 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ZMPT101B"
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Qingxian Zeming Langxi Elec"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" "ZMPT101B"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "LCSC"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" "C111858"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LINK" "https://lcsc.com/product-detail/Current-Transformers_Qingxian-Zeming-Langxi-Elec-ZMPT101B_C111858.html"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "manu1296"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "T"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "ZMPT101B"
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2685fe8-d3df-4c32-a7bd-2b42ab9cfa69")
+		)
+		(pin "3"
+			(uuid "aac6023f-a047-4b18-a446-3e76e7537bbe")
+		)
+		(pin "1"
+			(uuid "7b84411f-0694-432f-af72-4cc9c03422af")
+		)
+		(pin "4"
+			(uuid "51b2f635-1404-4cf9-b6a9-8f250fa99c12")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:+5V_BAR")
+		(at 207.01 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b23afc63-4eda-4bb7-96d2-eccc1a4ba1a7")
+		(property "Reference" "#PWR04"
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a5c67c7b-8dff-428f-a45a-006566678dfd")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_100K")
+		(at 256.54 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3206876-e19e-4a6c-b373-b2363d3bbc6b")
+		(property "Reference" "R11"
+			(at 254.986 120.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 253.675 123.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728f9669-781e-4894-95e6-15b6436a1093")
+		)
+		(pin "2"
+			(uuid "1d9e82a8-d7bb-45e0-96d6-4dcb6b610c65")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_LM358N")
+		(at 261.62 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5d2b5c0-b43b-4702-8b11-ab09ccb621bb")
+		(property "Reference" "U2"
+			(at 262.89 138.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM358N"
+			(at 263.493 141.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "LCSC"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" "C83405"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" "LM358N"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUBPART_NO" "1"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "U"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "LM358N"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b3a4fb73-036c-4a94-af45-258d9048a64e")
+		)
+		(pin "8"
+			(uuid "9355d3ff-fa29-484c-a07a-b133cc9ac7b8")
+		)
+		(pin "1"
+			(uuid "68c11367-4dda-46f4-9593-a2d92e585662")
+		)
+		(pin "3"
+			(uuid "325c96b4-2d26-4576-9f84-9139ba1ce36b")
+		)
+		(pin "2"
+			(uuid "a4684fa0-9775-47b2-a32d-8ee205ccf871")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_3_100K")
+		(at 220.98 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ad81bc-a062-4d8d-8b44-e95f0fee473b")
+		(property "Reference" "R7"
+			(at 221.276 153.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 218.736 153.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "POTENTIOMETER"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "X"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "100K"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "K" "50"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b88dd26-52cc-4252-a2a4-ebb85df3b444")
+		)
+		(pin "3"
+			(uuid "8cc2fe07-8c58-4a1f-839a-5d903d554eb2")
+		)
+		(pin "1"
+			(uuid "bfacb1a5-fa71-44a6-8f32-0a8b3a59c072")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:GND_BAR")
+		(at 207.01 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e6375f-14dd-46ea-befb-23e3813504e5")
+		(property "Reference" "#PWR05"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "73dc4f78-7884-430e-a226-ca3375e7bba0")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_1_100")
+		(at 165.1 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3330855-06e2-4f01-bcb3-230c95ba9081")
+		(property "Reference" "R2"
+			(at 166.664 148.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100"
+			(at 169.206 149.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 165.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31b07ebd-893b-4dd4-aca6-d46eabd37972")
+		)
+		(pin "1"
+			(uuid "141d5993-326c-46d8-a346-5b557c3a3b82")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:root_0_10K")
+		(at 186.69 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f586868d-337c-414e-af8a-699007dde5cc")
+		(property "Reference" "R3"
+			(at 185.112 143.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 185.11 140.949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICEPRE" "R"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTRIBUTOR" "EasyEDA"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "1K"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIM" "true"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICESYMBOLNAME" "Resistor1_EU"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adb32acd-137f-4ba9-b17a-efb701e9bea7")
+		)
+		(pin "1"
+			(uuid "ccc660d7-7b08-4588-a9e6-8231efd3a2b6")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAC PROBE-altium-import:+5V_BAR")
+		(at 132.08 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5aad2d2-689d-4ee6-b190-df821061a0d9")
+		(property "Reference" "#PWR01"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "67aca187-09ce-466a-af92-7e456617fb5b")
+		)
+		(instances
+			(project "VAC PROBE"
+				(path "/a587edbc-1d2e-4fb0-a917-d5fd86ac8293"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
